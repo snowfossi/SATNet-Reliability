@@ -1,0 +1,70 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file pbo/p_pbo_0_9282.opb
+Reading time = 0.00 seconds
+(null): 2001 rows, 1057 columns, 5969 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2001 rows, 1057 columns and 5969 nonzeros
+Model fingerprint: 0xd62d5419
+Variable types: 0 continuous, 1057 integer (1057 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -363.0000000
+Presolve removed 881 rows and 449 columns
+Presolve time: 0.01s
+Presolved: 1120 rows, 608 columns, 3360 nonzeros
+Variable types: 0 continuous, 608 integer (608 binary)
+
+Root relaxation: objective -6.590000e+02, 130 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -659.00000    0   48 -363.00000 -659.00000  81.5%     -    0s
+     0     0 -443.71854    0  597 -363.00000 -443.71854  22.2%     -    1s
+     0     0 -416.88027    0  596 -363.00000 -416.88027  14.8%     -    1s
+     0     0 -414.45020    0  601 -363.00000 -414.45020  14.2%     -    2s
+     0     0 -413.62031    0  601 -363.00000 -413.62031  13.9%     -    2s
+     0     0 -413.43872    0  603 -363.00000 -413.43872  13.9%     -    2s
+     0     0 -405.53513    0  605 -363.00000 -405.53513  11.7%     -    2s
+     0     0 -404.02876    0  606 -363.00000 -404.02876  11.3%     -    3s
+     0     0 -403.75031    0  606 -363.00000 -403.75031  11.2%     -    3s
+     0     0 -403.69103    0  605 -363.00000 -403.69103  11.2%     -    3s
+     0     0 -401.60819    0  605 -363.00000 -401.60819  10.6%     -    3s
+     0     0 -401.22381    0  606 -363.00000 -401.22381  10.5%     -    3s
+     0     0 -401.11984    0  606 -363.00000 -401.11984  10.5%     -    3s
+     0     0 -400.71162    0  605 -363.00000 -400.71162  10.4%     -    4s
+     0     0 -400.71162    0  605 -363.00000 -400.71162  10.4%     -    4s
+     0     2 -400.71162    0  605 -363.00000 -400.71162  10.4%     -    4s
+    31    36 -396.81556    6  581 -363.00000 -399.98164  10.2%   457    5s
+*   59    58               9    -371.0000000 -399.98164  7.81%   398    5s
+H   66    57                    -382.0000000 -399.98164  4.71%   395    5s
+*   76    44               9    -395.0000000 -399.98164  1.26%   364    5s
+
+Cutting planes:
+  MIR: 161
+  RLT: 247
+
+Explored 113 nodes (39048 simplex iterations) in 5.66 seconds (3.46 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: -395 -382 -371 -363 
+No other solutions better than -395
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -3.950000000000e+02, best bound -3.950000000000e+02, gap 0.0000%
+
+Wrote result file 'solution/p_0_9282.sol'
+

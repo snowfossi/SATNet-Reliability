@@ -1,0 +1,38 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file ./pbo/gt_pbo_278.opb
+Reading time = 0.00 seconds
+(null): 2177 rows, 1121 columns, 6401 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2177 rows, 1121 columns and 6401 nonzeros
+Model fingerprint: 0xe88da3c8
+Variable types: 0 continuous, 1121 integer (1121 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 95600.000000
+Presolve removed 2177 rows and 1121 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 95600 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.560000000000e+04, best bound 9.560000000000e+04, gap 0.0000%
+
+Wrote result file './sol/gt_278.sol'
+

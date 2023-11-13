@@ -1,0 +1,230 @@
+testset 0 pred obj: -406, testset 0 gt obj: -412, gt more optimal than pred: True
+
+testset 1 pred obj: -425, testset 1 gt obj: -437, gt more optimal than pred: True
+
+testset 2 pred obj: -443, testset 2 gt obj: -447, gt more optimal than pred: True
+
+testset 3 pred obj: -421, testset 3 gt obj: -425, gt more optimal than pred: True
+
+testset 4 pred obj: -407, testset 4 gt obj: -418, gt more optimal than pred: True
+
+testset 5 pred obj: -439, testset 5 gt obj: -444, gt more optimal than pred: True
+
+testset 6 pred obj: -424, testset 6 gt obj: -428, gt more optimal than pred: True
+
+testset 7 pred obj: -428, testset 7 gt obj: -433, gt more optimal than pred: True
+
+testset 8 pred obj: -435, testset 8 gt obj: -440, gt more optimal than pred: True
+
+testset 9 pred obj: -412, testset 9 gt obj: -420, gt more optimal than pred: True
+
+testset 10 pred obj: -439, testset 10 gt obj: -446, gt more optimal than pred: True
+
+testset 11 pred obj: -433, testset 11 gt obj: -438, gt more optimal than pred: True
+
+testset 12 pred obj: -412, testset 12 gt obj: -418, gt more optimal than pred: True
+
+testset 13 pred obj: -423, testset 13 gt obj: -427, gt more optimal than pred: True
+
+testset 14 pred obj: -414, testset 14 gt obj: -420, gt more optimal than pred: True
+
+testset 15 pred obj: -411, testset 15 gt obj: -415, gt more optimal than pred: True
+
+testset 16 pred obj: -429, testset 16 gt obj: -441, gt more optimal than pred: True
+
+testset 17 pred obj: -423, testset 17 gt obj: -428, gt more optimal than pred: True
+
+testset 18 pred obj: -405, testset 18 gt obj: -425, gt more optimal than pred: True
+
+testset 19 pred obj: -414, testset 19 gt obj: -422, gt more optimal than pred: True
+
+testset 20 pred obj: -427, testset 20 gt obj: -436, gt more optimal than pred: True
+
+testset 21 pred obj: -419, testset 21 gt obj: -442, gt more optimal than pred: True
+
+testset 22 pred obj: -415, testset 22 gt obj: -426, gt more optimal than pred: True
+
+testset 23 pred obj: -431, testset 23 gt obj: -443, gt more optimal than pred: True
+
+testset 24 pred obj: -423, testset 24 gt obj: -429, gt more optimal than pred: True
+
+testset 25 pred obj: -432, testset 25 gt obj: -436, gt more optimal than pred: True
+
+testset 26 pred obj: -416, testset 26 gt obj: -420, gt more optimal than pred: True
+
+testset 27 pred obj: -415, testset 27 gt obj: -421, gt more optimal than pred: True
+
+testset 28 pred obj: -417, testset 28 gt obj: -426, gt more optimal than pred: True
+
+testset 29 pred obj: -423, testset 29 gt obj: -429, gt more optimal than pred: True
+
+testset 30 pred obj: -417, testset 30 gt obj: -426, gt more optimal than pred: True
+
+testset 31 pred obj: -413, testset 31 gt obj: -422, gt more optimal than pred: True
+
+testset 32 pred obj: -416, testset 32 gt obj: -420, gt more optimal than pred: True
+
+testset 33 pred obj: -424, testset 33 gt obj: -431, gt more optimal than pred: True
+
+testset 34 pred obj: -405, testset 34 gt obj: -416, gt more optimal than pred: True
+
+testset 35 pred obj: -434, testset 35 gt obj: -440, gt more optimal than pred: True
+
+testset 36 pred obj: -425, testset 36 gt obj: -430, gt more optimal than pred: True
+
+testset 37 pred obj: -424, testset 37 gt obj: -434, gt more optimal than pred: True
+
+testset 38 pred obj: -414, testset 38 gt obj: -425, gt more optimal than pred: True
+
+testset 39 pred obj: -411, testset 39 gt obj: -420, gt more optimal than pred: True
+
+testset 40 pred obj: -410, testset 40 gt obj: -424, gt more optimal than pred: True
+
+testset 41 pred obj: -400, testset 41 gt obj: -432, gt more optimal than pred: True
+
+testset 42 pred obj: -435, testset 42 gt obj: -440, gt more optimal than pred: True
+
+testset 43 pred obj: -410, testset 43 gt obj: -417, gt more optimal than pred: True
+
+testset 44 pred obj: -428, testset 44 gt obj: -433, gt more optimal than pred: True
+
+testset 45 pred obj: -442, testset 45 gt obj: -446, gt more optimal than pred: True
+
+testset 46 pred obj: -436, testset 46 gt obj: -440, gt more optimal than pred: True
+
+testset 47 pred obj: -434, testset 47 gt obj: -440, gt more optimal than pred: True
+
+testset 48 pred obj: -423, testset 48 gt obj: -429, gt more optimal than pred: True
+
+testset 49 pred obj: -415, testset 49 gt obj: -430, gt more optimal than pred: True
+
+testset 50 pred obj: -414, testset 50 gt obj: -417, gt more optimal than pred: True
+
+testset 51 pred obj: -427, testset 51 gt obj: -433, gt more optimal than pred: True
+
+testset 52 pred obj: -420, testset 52 gt obj: -424, gt more optimal than pred: True
+
+testset 53 pred obj: -444, testset 53 gt obj: -448, gt more optimal than pred: True
+
+testset 54 pred obj: -434, testset 54 gt obj: -441, gt more optimal than pred: True
+
+testset 55 pred obj: -447, testset 55 gt obj: -451, gt more optimal than pred: True
+
+testset 56 pred obj: -434, testset 56 gt obj: -441, gt more optimal than pred: True
+
+testset 57 pred obj: -425, testset 57 gt obj: -430, gt more optimal than pred: True
+
+testset 58 pred obj: -411, testset 58 gt obj: -420, gt more optimal than pred: True
+
+testset 59 pred obj: -423, testset 59 gt obj: -436, gt more optimal than pred: True
+
+testset 60 pred obj: -431, testset 60 gt obj: -435, gt more optimal than pred: True
+
+testset 61 pred obj: -445, testset 61 gt obj: -449, gt more optimal than pred: True
+
+testset 62 pred obj: -422, testset 62 gt obj: -427, gt more optimal than pred: True
+
+testset 63 pred obj: -421, testset 63 gt obj: -432, gt more optimal than pred: True
+
+testset 64 pred obj: -433, testset 64 gt obj: -437, gt more optimal than pred: True
+
+testset 65 pred obj: -402, testset 65 gt obj: -412, gt more optimal than pred: True
+
+testset 66 pred obj: -415, testset 66 gt obj: -429, gt more optimal than pred: True
+
+testset 67 pred obj: -431, testset 67 gt obj: -435, gt more optimal than pred: True
+
+testset 68 pred obj: -446, testset 68 gt obj: -454, gt more optimal than pred: True
+
+testset 69 pred obj: -434, testset 69 gt obj: -442, gt more optimal than pred: True
+
+testset 70 pred obj: -429, testset 70 gt obj: -435, gt more optimal than pred: True
+
+testset 71 pred obj: -445, testset 71 gt obj: -449, gt more optimal than pred: True
+
+testset 72 pred obj: -446, testset 72 gt obj: -451, gt more optimal than pred: True
+
+testset 73 pred obj: -426, testset 73 gt obj: -429, gt more optimal than pred: True
+
+testset 74 pred obj: -439, testset 74 gt obj: -445, gt more optimal than pred: True
+
+testset 75 pred obj: -427, testset 75 gt obj: -431, gt more optimal than pred: True
+
+testset 76 pred obj: -411, testset 76 gt obj: -421, gt more optimal than pred: True
+
+testset 77 pred obj: -410, testset 77 gt obj: -423, gt more optimal than pred: True
+
+testset 78 pred obj: -412, testset 78 gt obj: -420, gt more optimal than pred: True
+
+testset 79 pred obj: -429, testset 79 gt obj: -433, gt more optimal than pred: True
+
+testset 80 pred obj: -424, testset 80 gt obj: -440, gt more optimal than pred: True
+
+testset 81 pred obj: -438, testset 81 gt obj: -443, gt more optimal than pred: True
+
+testset 82 pred obj: -425, testset 82 gt obj: -429, gt more optimal than pred: True
+
+testset 83 pred obj: -421, testset 83 gt obj: -425, gt more optimal than pred: True
+
+testset 84 pred obj: -435, testset 84 gt obj: -444, gt more optimal than pred: True
+
+testset 85 pred obj: -426, testset 85 gt obj: -434, gt more optimal than pred: True
+
+testset 86 pred obj: -429, testset 86 gt obj: -433, gt more optimal than pred: True
+
+testset 87 pred obj: -408, testset 87 gt obj: -422, gt more optimal than pred: True
+
+testset 88 pred obj: -410, testset 88 gt obj: -422, gt more optimal than pred: True
+
+testset 89 pred obj: -391, testset 89 gt obj: -418, gt more optimal than pred: True
+
+testset 90 pred obj: -423, testset 90 gt obj: -427, gt more optimal than pred: True
+
+testset 91 pred obj: -432, testset 91 gt obj: -436, gt more optimal than pred: True
+
+testset 92 pred obj: -416, testset 92 gt obj: -426, gt more optimal than pred: True
+
+testset 93 pred obj: -416, testset 93 gt obj: -421, gt more optimal than pred: True
+
+testset 94 pred obj: -423, testset 94 gt obj: -427, gt more optimal than pred: True
+
+testset 95 pred obj: -424, testset 95 gt obj: -428, gt more optimal than pred: True
+
+testset 96 pred obj: -419, testset 96 gt obj: -427, gt more optimal than pred: True
+
+testset 97 pred obj: -423, testset 97 gt obj: -427, gt more optimal than pred: True
+
+testset 98 pred obj: -424, testset 98 gt obj: -428, gt more optimal than pred: True
+
+testset 99 pred obj: -415, testset 99 gt obj: -427, gt more optimal than pred: True
+
+testset 100 pred obj: -404, testset 100 gt obj: -408, gt more optimal than pred: True
+
+testset 101 pred obj: -427, testset 101 gt obj: -439, gt more optimal than pred: True
+
+testset 102 pred obj: -408, testset 102 gt obj: -422, gt more optimal than pred: True
+
+testset 103 pred obj: -425, testset 103 gt obj: -429, gt more optimal than pred: True
+
+testset 104 pred obj: -399, testset 104 gt obj: -408, gt more optimal than pred: True
+
+testset 105 pred obj: -432, testset 105 gt obj: -439, gt more optimal than pred: True
+
+testset 106 pred obj: -420, testset 106 gt obj: -424, gt more optimal than pred: True
+
+testset 107 pred obj: -441, testset 107 gt obj: -447, gt more optimal than pred: True
+
+testset 108 pred obj: -417, testset 108 gt obj: -425, gt more optimal than pred: True
+
+testset 109 pred obj: -413, testset 109 gt obj: -425, gt more optimal than pred: True
+
+testset 110 pred obj: -433, testset 110 gt obj: -437, gt more optimal than pred: True
+
+testset 111 pred obj: -410, testset 111 gt obj: -419, gt more optimal than pred: True
+
+testset 112 pred obj: -411, testset 112 gt obj: -426, gt more optimal than pred: True
+
+testset 113 pred obj: -424, testset 113 gt obj: -436, gt more optimal than pred: True
+
+testset 114 pred obj: -428, testset 114 gt obj: -433, gt more optimal than pred: True
+

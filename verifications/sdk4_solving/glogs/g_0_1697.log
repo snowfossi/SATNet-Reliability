@@ -1,0 +1,58 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file pbo/p_pbo_0_1697.opb
+Reading time = 0.01 seconds
+(null): 2005 rows, 1057 columns, 5973 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2005 rows, 1057 columns and 5973 nonzeros
+Model fingerprint: 0xee07d720
+Variable types: 0 continuous, 1057 integer (1057 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -356.0000000
+Presolve removed 1081 rows and 551 columns
+Presolve time: 0.00s
+Presolved: 924 rows, 506 columns, 2772 nonzeros
+Variable types: 0 continuous, 506 integer (506 binary)
+
+Root relaxation: objective -5.790000e+02, 138 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -579.00000    0   44 -356.00000 -579.00000  62.6%     -    0s
+     0     0 -419.40711    0  490 -356.00000 -419.40711  17.8%     -    0s
+H    0     0                    -373.0000000 -397.50464  6.57%     -    1s
+     0     0 -397.50464    0  499 -373.00000 -397.50464  6.57%     -    1s
+     0     0 -396.45248    0  500 -373.00000 -396.45248  6.29%     -    1s
+     0     0 -396.20383    0  498 -373.00000 -396.20383  6.22%     -    1s
+H    0     0                    -395.0000000 -396.06745  0.27%     -    1s
+     0     0     cutoff    0      -395.00000 -395.00000  0.00%     -    1s
+
+Cutting planes:
+  MIR: 61
+  RLT: 204
+
+Explored 1 nodes (3947 simplex iterations) in 1.13 seconds (0.53 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: -395 -373 -356 
+No other solutions better than -395
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -3.950000000000e+02, best bound -3.950000000000e+02, gap 0.0000%
+
+Wrote result file 'solution/p_0_1697.sol'
+

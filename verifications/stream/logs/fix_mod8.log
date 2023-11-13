@@ -1,0 +1,54 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file fix_mod8.opb
+Reading time = 0.00 seconds
+(null): 127 rows, 72 columns, 367 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 127 rows, 72 columns and 367 nonzeros
+Model fingerprint: 0x54d6c527
+Variable types: 0 continuous, 72 integer (72 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -163.0000000
+Presolve removed 121 rows and 66 columns
+Presolve time: 0.00s
+Presolved: 6 rows, 6 columns, 18 nonzeros
+Found heuristic solution: objective -657.0000000
+Variable types: 0 continuous, 6 integer (6 binary)
+Found heuristic solution: objective -1948.000000
+
+Root relaxation: objective -2.490000e+03, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -2490.0000    0    3 -1948.0000 -2490.0000  27.8%     -    0s
+H    0     0                    -2290.000000 -2490.0000  8.73%     -    0s
+H    0     0                    -2362.000000 -2490.0000  5.42%     -    0s
+
+Cutting planes:
+  Clique: 1
+
+Explored 1 nodes (1 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 5: -2362 -2290 -1948 ... -163
+No other solutions better than -2362
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.362000000000e+03, best bound -2.362000000000e+03, gap 0.0000%
+
+Wrote result file 'fix_mod8.sol'
+

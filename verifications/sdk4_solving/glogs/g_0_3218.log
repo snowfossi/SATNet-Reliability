@@ -1,0 +1,57 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file pbo/p_pbo_0_3218.opb
+Reading time = 0.01 seconds
+(null): 2005 rows, 1057 columns, 5973 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2005 rows, 1057 columns and 5973 nonzeros
+Model fingerprint: 0x2a8064a7
+Variable types: 0 continuous, 1057 integer (1057 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -358.0000000
+Presolve removed 1089 rows and 555 columns
+Presolve time: 0.00s
+Presolved: 916 rows, 502 columns, 2748 nonzeros
+Variable types: 0 continuous, 502 integer (502 binary)
+
+Root relaxation: objective -5.870000e+02, 129 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -587.00000    0   44 -358.00000 -587.00000  64.0%     -    0s
+     0     0 -421.87795    0  488 -358.00000 -421.87795  17.8%     -    0s
+     0     0 -399.98910    0  495 -358.00000 -399.98910  11.7%     -    0s
+     0     0 -398.52022    0  495 -358.00000 -398.52022  11.3%     -    0s
+     0     0 -397.80921    0  497 -358.00000 -397.80921  11.1%     -    0s
+     0     0 -397.66645    0  496 -358.00000 -397.66645  11.1%     -    0s
+*    0     0               0    -395.0000000 -395.00000  0.00%     -    1s
+
+Cutting planes:
+  MIR: 70
+  RLT: 335
+
+Explored 1 nodes (4273 simplex iterations) in 1.13 seconds (0.57 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: -395 -358 
+No other solutions better than -395
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -3.950000000000e+02, best bound -3.950000000000e+02, gap 0.0000%
+
+Wrote result file 'solution/p_0_3218.sol'
+

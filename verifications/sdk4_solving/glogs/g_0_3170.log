@@ -1,0 +1,60 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file pbo/p_pbo_0_3170.opb
+Reading time = 0.00 seconds
+(null): 2005 rows, 1057 columns, 5973 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2005 rows, 1057 columns and 5973 nonzeros
+Model fingerprint: 0x9e6912e2
+Variable types: 0 continuous, 1057 integer (1057 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -358.0000000
+Presolve removed 1057 rows and 539 columns
+Presolve time: 0.00s
+Presolved: 948 rows, 518 columns, 2844 nonzeros
+Variable types: 0 continuous, 518 integer (518 binary)
+
+Root relaxation: objective -6.070000e+02, 119 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -607.00000    0   44 -358.00000 -607.00000  69.6%     -    0s
+     0     0 -427.15815    0  506 -358.00000 -427.15815  19.3%     -    0s
+H    0     0                    -384.0000000 -427.15815  11.2%     -    0s
+     0     0 -403.37290    0  511 -384.00000 -403.37290  5.05%     -    1s
+     0     0 -401.47586    0  511 -384.00000 -401.47586  4.55%     -    1s
+     0     0 -400.96199    0  515 -384.00000 -400.96199  4.42%     -    1s
+     0     0 -400.86092    0  512 -384.00000 -400.86092  4.39%     -    1s
+H    0     0                    -395.0000000 -400.86092  1.48%     -    1s
+     0     0     cutoff    0      -395.00000 -395.00000  0.00%     -    1s
+
+Cutting planes:
+  MIR: 116
+  Zero half: 1
+  RLT: 325
+
+Explored 1 nodes (5127 simplex iterations) in 1.97 seconds (0.80 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: -395 -384 -358 
+No other solutions better than -395
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -3.950000000000e+02, best bound -3.950000000000e+02, gap 0.0000%
+
+Wrote result file 'solution/p_0_3170.sol'
+

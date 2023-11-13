@@ -1,0 +1,59 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file pbo/p_pbo_0_2465.opb
+Reading time = 0.01 seconds
+(null): 2005 rows, 1057 columns, 5973 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2005 rows, 1057 columns and 5973 nonzeros
+Model fingerprint: 0xc3fc8fcf
+Variable types: 0 continuous, 1057 integer (1057 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -354.0000000
+Presolve removed 1057 rows and 539 columns
+Presolve time: 0.00s
+Presolved: 948 rows, 518 columns, 2844 nonzeros
+Variable types: 0 continuous, 518 integer (518 binary)
+
+Root relaxation: objective -5.830000e+02, 148 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -583.00000    0   44 -354.00000 -583.00000  64.7%     -    0s
+H    0     0                    -372.0000000 -423.73289  13.9%     -    0s
+     0     0 -423.73289    0  492 -372.00000 -423.73289  13.9%     -    0s
+H    0     0                    -395.0000000 -423.73289  7.27%     -    0s
+     0     0 -397.80359    0  511 -395.00000 -397.80359  0.71%     -    0s
+     0     0 -396.11429    0  513 -395.00000 -396.11429  0.28%     -    0s
+     0     0     cutoff    0      -395.00000 -395.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 67
+  Zero half: 1
+  RLT: 259
+
+Explored 1 nodes (4363 simplex iterations) in 0.74 seconds (0.61 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: -395 -372 -354 
+No other solutions better than -395
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -3.950000000000e+02, best bound -3.950000000000e+02, gap 0.0000%
+
+Wrote result file 'solution/p_0_2465.sol'
+

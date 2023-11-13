@@ -1,0 +1,56 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file pbo/p_pbo_0_4682.opb
+Reading time = 0.01 seconds
+(null): 2005 rows, 1057 columns, 5973 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2005 rows, 1057 columns and 5973 nonzeros
+Model fingerprint: 0xf8da71b1
+Variable types: 0 continuous, 1057 integer (1057 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 4e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -350.0000000
+Presolve removed 1121 rows and 571 columns
+Presolve time: 0.00s
+Presolved: 884 rows, 486 columns, 2652 nonzeros
+Variable types: 0 continuous, 486 integer (486 binary)
+
+Root relaxation: objective -5.590000e+02, 162 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -559.00000    0   44 -350.00000 -559.00000  59.7%     -    0s
+     0     0 -402.35104    0  477 -350.00000 -402.35104  15.0%     -    0s
+H    0     0                    -361.0000000 -402.35104  11.5%     -    0s
+H    0     0                    -395.0000000 -395.00000  0.00%     -    0s
+     0     0          -    0      -395.00000 -395.00000  0.00%     -    0s
+
+Cutting planes:
+  MIR: 51
+  Zero half: 2
+  RLT: 388
+
+Explored 1 nodes (2294 simplex iterations) in 0.43 seconds (0.27 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: -395 -361 -350 
+No other solutions better than -395
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -3.950000000000e+02, best bound -3.950000000000e+02, gap 0.0000%
+
+Wrote result file 'solution/p_0_4682.sol'
+

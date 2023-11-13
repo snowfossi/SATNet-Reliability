@@ -1,0 +1,45 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file ranking_w_delta.opb
+Reading time = 0.01 seconds
+(null): 2402 rows, 1121 columns, 25825 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2402 rows, 1121 columns and 25825 nonzeros
+Model fingerprint: 0xa53f3cd2
+Variable types: 0 continuous, 1121 integer (1121 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+03]
+  Objective range  [1e+00, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+04]
+Presolve removed 129 rows and 65 columns
+Presolve time: 0.01s
+Presolved: 2273 rows, 1056 columns, 25440 nonzeros
+Variable types: 0 continuous, 1056 integer (1056 binary)
+
+Root relaxation: infeasible, 96 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (96 simplex iterations) in 0.03 seconds (0.05 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+

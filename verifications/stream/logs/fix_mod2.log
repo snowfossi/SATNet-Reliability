@@ -1,0 +1,39 @@
+Set parameter Username
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2024-05-02
+Using license file /Users/sissi/gurobi.lic
+
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+Copyright (c) 2023, Gurobi Optimization, LLC
+
+Read OPB format model from file fix_mod2.opb
+Reading time = 0.00 seconds
+(null): 23 rows, 15 columns, 63 nonzeros
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 23 rows, 15 columns and 63 nonzeros
+Model fingerprint: 0xf068218b
+Variable types: 0 continuous, 15 integer (15 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [5e+01, 3e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -258.0000000
+Presolve removed 23 rows and 15 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: -449 -258 
+No other solutions better than -449
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -4.490000000000e+02, best bound -4.490000000000e+02, gap 0.0000%
+
+Wrote result file 'fix_mod2.sol'
+

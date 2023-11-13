@@ -1,0 +1,53 @@
+------naive_thresh------
+- iterate through all entries in the S matrix given and solve on the test data set
+
+use cashwmaxsatcoreplus solver
+usage: ./naive_thresh.sh
+
+our result: log.out
+
+------stream------
+- verifies general functional equivalence for stream addition, mod2, mod4, mod8, mod16
+
+use Gurobi solver
+usage: ./streams.sh
+
+our result: in logs
+
+------sdk4_solving------
+- verifies unique functional equivalence on 85632 imcomplete puzzles
+
+use Gurobi solver
+usage: ./sdk_solve_all.sh
+
+our result: a_out.txt
+sample logs included in glogs (gurobi logs), pbo (constraint files), solution (gurobi solutions)
+
+------sdk4_gt------
+- verifies the human-written constraints of sudoku4
+
+use cashwmaxsatcoreplus solver
+usage: ./sdk4_gt.sh
+then run ./cashwmaxsatcoreplus -m common4.txt > opt.txt
+the sdk4_space.txt should contain weights that are all the same as the globally optimum solution in opt.txt
+
+our result: in logs/sdk4_space.txt
+
+------w_extra_info------
+- verifies sufficient condition for C + \delta C where \delta C encodes some extra information (e.g. one-hot) encoded
+
+use Gurobi solver
+usage: ./sdk4_ranking.sh
+
+check if ranking_w_delta.log gives "not feasible"
+
+our result: in a_results, see ranking_w_delta.log,
+which shows that there is no better solution other than the 288 unique complete solutions to sudoku4.
+
+------subopt9------
+- verifies that all wrongly solved solutions for sudoku 9x9 are less optimal than the corresponding groundtruth solutions
+
+use Gurobi solver
+usage: ./sdk9_subopt.sh
+
+our result: in logs/out_a.txt
